@@ -14,6 +14,7 @@ body {
   width: 90%;
   max-width: 600px;
   margin: 0 auto;
+  position: relative;
 }
 
 section {
@@ -244,4 +245,10 @@ a {
 
 .cf {
   zoom:1;
+}
+
+#qqLoginBtn{
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
