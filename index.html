@@ -8,7 +8,6 @@
     
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
     <title>Renmin.github.com by renmin</title>
   </head>
@@ -23,6 +22,8 @@
         <section id="downloads">
           <a href="https://github.com/renmin" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
+        <span id="qqLoginBtn"></span>
+
       </div>
     </header>
 
@@ -62,6 +63,12 @@ $ git checkout gh-pages
       </section>
     </div>
 
-    
+  <script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" data-appid="100470492" data-redirecturi="http://renmin.github.io" charset="utf-8"></script>
+  <script type="text/javascript">
+    QC.Login({
+       btnId:"qqLoginBtn"    //插入按钮的节点id
+  });
+  </script>
+      
   </body>
 </html>
